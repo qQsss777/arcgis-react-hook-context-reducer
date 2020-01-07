@@ -1,7 +1,7 @@
 # ArcGIS API for JavaScript 4.x & React Hook, useReducer, Context
 
 
-![]()
+![](hookReducer.gif)
 
 This is an example of an appliction wich use the ArcGIS API for JavaScript, ArcGIS Webpack Plugin with React. There are 3 components : a header with toolbar and two map views.
 
