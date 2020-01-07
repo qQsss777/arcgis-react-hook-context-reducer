@@ -11,8 +11,8 @@ export const activateToolsMeasurementLine = (view: MapView): DistanceMeasurement
     const distanceMeasurement2D = new DistanceMeasurement2D({
         view: view
     });
-    distanceMeasurement2D.viewModel.newMeasurement()
-    return distanceMeasurement2D
+    distanceMeasurement2D.viewModel.newMeasurement();
+    return distanceMeasurement2D;
 }
 
 export const deactivateToolsMeasurementLine = (distanceMeasurement2D: DistanceMeasurement2D, ): void => {
@@ -23,8 +23,8 @@ export const activateToolsMeasurementArea = (view: MapView): AreaMeasurement2D =
     const areaMeasurement2D = new AreaMeasurement2D({
         view: view
     });
-    areaMeasurement2D.viewModel.newMeasurement()
-    return areaMeasurement2D
+    areaMeasurement2D.viewModel.newMeasurement();
+    return areaMeasurement2D;
 }
 
 export const deactivateToolsMeasurementArea = (areaMeasurement2D: AreaMeasurement2D): void => {

@@ -12,6 +12,6 @@ const App = () => {
             </MapContextProvider>
         </div>
     );
-}
+};
 
 export default App;

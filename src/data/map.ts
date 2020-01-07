@@ -33,5 +33,5 @@ export const initialize = (container: HTMLElement, scale: number): MapView => {
     view
         .when()
         .catch(noop);
-    return view
+    return view;
 };

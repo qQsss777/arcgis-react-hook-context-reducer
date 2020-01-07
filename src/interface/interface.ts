@@ -4,7 +4,7 @@ import AreaMeasurement2D = require('esri/widgets/AreaMeasurement2D');
 
 export interface IMapProps {
     scale: number
-}
+};
 
 export interface IData {
     line: boolean;
@@ -24,4 +24,4 @@ export interface IStateMap {
     view: MapView | null;
     lineMeasurement: DistanceMeasurement2D | null;
     areaMeasurement: AreaMeasurement2D | null;
-}
+};

@@ -13,5 +13,5 @@ export const reducer = (state: IData, action: any) => {
             return { ...state, line: false, area: false };
         default:
             throw new Error('Unexpected action');
-    }
+    };
 };

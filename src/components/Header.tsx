@@ -1,5 +1,4 @@
-import React, { useContext } from "react";
-import { MapContext } from '../context/context';
+import React from "react";
 import Toolbar from './Toolbar';
 
 const Header = () => {
@@ -8,7 +7,7 @@ const Header = () => {
             <Toolbar />
         </header>
     )
-}
+};
 
 export default Header;
 

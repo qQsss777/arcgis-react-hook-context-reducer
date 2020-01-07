@@ -7,11 +7,11 @@ const initialState: IStateMap = {
     view: null,
     lineMeasurement: null,
     areaMeasurement: null
-}
+};
 
 const MyLocalMapView = (mapProps: IMapProps) => {
-    const { data } = useContext(MapContext)
-    const [state, setState] = useState(initialState)
+    const { data } = useContext(MapContext);
+    const [state, setState] = useState(initialState);
 
     //create node
     const mapRef = useRef<HTMLInputElement>(null);
@@ -21,7 +21,7 @@ const MyLocalMapView = (mapProps: IMapProps) => {
         const app = await import("../data/map");
         const mapView = await app.initialize(mapRef.current as HTMLDivElement, mapProps.scale);
         setState({ ...state, view: mapView })
-    }
+    };
 
 
     useEffect(() => { lazyLoad() }, []);
@@ -34,6 +34,6 @@ const MyLocalMapView = (mapProps: IMapProps) => {
     return (
         <div className="mapview" ref={mapRef} />
     );
-}
+};
 
 export { MyLocalMapView };

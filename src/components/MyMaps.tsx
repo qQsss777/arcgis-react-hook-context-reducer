@@ -3,8 +3,6 @@ import { MyMapView } from './MyMapView';
 import { MyLocalMapView } from './MyLocalMapView';
 import { IMapProps } from '../interface/interface';
 
-let IMapProps: IMapProps;
-
 const MyMaps = (mapsProps: IMapProps) => {
     return (
         <div className="mappingcontainer">
@@ -14,6 +12,6 @@ const MyMaps = (mapsProps: IMapProps) => {
             </React.Fragment>
         </div>
     );
-}
+};
 
 export { MyMaps };
