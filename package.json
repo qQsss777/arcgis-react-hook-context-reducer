@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/qQsss777/arcgis-react-hook-context-reducer#readme",
   "devDependencies": {
-    "@arcgis/webpack-plugin": "^4.14.0",
+    "@arcgis/webpack-plugin": "^4.22.0",
     "@theintern/istanbul-loader": "^1.0.0-beta.2",
     "@types/react-dom": "^16.9.4",
     "@types/sinon": "^7.0.13",
@@ -35,7 +35,7 @@
     "copy-webpack-plugin": "~5.0.3",
     "css-loader": "^3.0.0",
     "html-loader": "^0.5.5",
-    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^0.7.0",
     "node-sass": "~4.12.0",
     "prettier": "^1.14.3",
